@@ -24,26 +24,4 @@
           <script>
           <![CDATA[
 log.info("hello form cdata");
-for(var i = 0; i < mvn.arguments.length; i++) {
-  log.info(mvn.arguments[i]);
-}
-]]>
-          </script>
-          <arguments>
-            <argument>aaa</argument>
-            <argument>xyz</argument>
-          </arguments>
-        </configuration>
-        <executions>
-          <execution>
-            <id>hello</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>execute</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-</project>
+
